@@ -10,3 +10,8 @@ services:
     extends:
       file: docker-compose.openspeedtest.yml
       service: speedtest
+
+  jellyfin:
+    extends:
+      file: docker-compose.jellyfin.yml
+      service: jellyfin
