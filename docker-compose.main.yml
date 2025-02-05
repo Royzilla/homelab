@@ -8,5 +8,5 @@ services:
 
   speedtest:
     extends:
-      file: docker-compose.yml
+      file: docker-composeopenspeedtest.yml
       service: speedtest
