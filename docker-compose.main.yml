@@ -3,7 +3,7 @@ version: '3.8'
 services:
   sabnzbd:
     extends:
-      file: docker-compose.yml
+      file: docker-compose.sabnzbd.yml
       service: sabnzbd
 
   speedtest:
